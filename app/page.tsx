@@ -1,46 +1,27 @@
-'use client'
+'use client';
 
 // import Link from 'next/link'
 // import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <main>
       <article>
-        <section className={styles.caption}>
-          {/* <Image
-            className={styles.captionImage}
-            src="/LtBlue_v3.png"
-            alt="SSO"
-            fill={true}
-          /> */}
-          <div className={styles.captionContent}>
+        <section>
+          <div>
             <h2 className={styles.captionTitle}>FDOE Single Sign-On</h2>
-            <hr className={styles.captionSeparator} />
+            <hr />
             <p>
-              The Single Sign-On (SSO) Portal provides users within Florida’s
-              educational community with a convenient way to log into multiple
-              state resources with one account.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="#" className="arrowLink">
-              Select an option below to get started
-            </a>
           </div>
         </section>
         <section>
-          <div>
-            {/* <Link>
-              <Image></Image>
-            </Link> */}
-          </div>
-          <div>
-            {/* <Link>
-              <Image></Image>
-            </Link> */}
-          </div>
+          <div></div>
+          <div></div>
         </section>
       </article>
     </main>
-  )
+  );
 }
